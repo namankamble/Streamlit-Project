@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # --- Configuration (can be here) ---
-MODEL_PATH = 'models/RFR_model.pkl'
+MODEL_PATH = 'RFR_model.pkl'
 FEATURE_NAMES = ['temperature', 'humidity', 'wind_speed', 'general_diffuse_flows', 'diffuse_flows', 'air_quality_index_(pm)']
 TARGET_NAME = 'power_consumption_in_a_zone'
 
